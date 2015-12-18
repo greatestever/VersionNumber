@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE0D40611C239D5600A86B1F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0D40601C239D5600A86B1F /* main.swift */; };
+		BE42EFE41C23B55500AED553 /* versions.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0D40691C239EE600A86B1F /* versions.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +21,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		BE42EFE31C23B53600AED553 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				BE42EFE41C23B55500AED553 /* versions.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BE0D405D1C239D5600A86B1F /* VersionNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VersionNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0D40601C239D5600A86B1F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BE0D40691C239EE600A86B1F /* versions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = versions.txt; path = VersionNumber/versions.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 		BE0D40541C239D5600A86B1F = {
 			isa = PBXGroup;
 			children = (
+				BE0D40671C239D7B00A86B1F /* Files */,
 				BE0D405F1C239D5600A86B1F /* VersionNumber */,
 				BE0D405E1C239D5600A86B1F /* Products */,
 			);
@@ -62,6 +75,14 @@
 			path = VersionNumber;
 			sourceTree = "<group>";
 		};
+		BE0D40671C239D7B00A86B1F /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0D40691C239EE600A86B1F /* versions.txt */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -72,6 +93,7 @@
 				BE0D40591C239D5600A86B1F /* Sources */,
 				BE0D405A1C239D5600A86B1F /* Frameworks */,
 				BE0D405B1C239D5600A86B1F /* CopyFiles */,
+				BE42EFE31C23B53600AED553 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -239,6 +261,7 @@
 				BE0D40661C239D5600A86B1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
